@@ -1,6 +1,6 @@
 Zen of Python!!!!
 
-1.
+1.Beautiful is better than ugly.
 2.
 3.
 4.
@@ -10,9 +10,9 @@ Zen of Python!!!!
 8.
 9.
 10. Errors should never pass silently.
-11.
+11. Unless explicitly silenced.
 12.
-13.
+13. There should be one-- and preferably only one --obvious way to do it.
 14. Although that way may not be obvious at first unless you're Dutch.
 15.
 16.
