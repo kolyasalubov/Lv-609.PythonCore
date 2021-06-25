@@ -20,3 +20,8 @@ Zen of Python!!!!
 18.
 19.
 23.Complex is better than complicated.
+27.Special cases aren't special enough to break the rules.
+32.There should be one-- and preferably only one --obvious way to do it.
+34.Now is better than never.
+35.Although never is often better than *right* now.
+
