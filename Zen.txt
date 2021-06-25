@@ -20,6 +20,7 @@ Zen of Python!!!!
 18.
 19.
 19.Namespaces are one honking great idea -- let's do more of those!
+20.Beautiful is better than ugly.
 23.Complex is better than complicated.
 27.Special cases aren't special enough to break the rules.
 32. There should be one-- and preferably only one --obvious way to do it.
