@@ -20,3 +20,4 @@ Zen of Python!!!!
 18.
 19.
 27.Special cases aren't special enough to break the rules.
+34.Now is better than never.
