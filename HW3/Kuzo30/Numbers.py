@@ -12,6 +12,14 @@ def reversed_number(number):
     print(result)
 
 
+def sort(number):
+    number_array = str(number)
+    number_array.split()
+    res = int("".join(map(str, sorted(number_array))))
+    print(res)
+
+
 if __name__ == '__main__':
     product("1234")
     reversed_number("1234")
+    sort(4321)
