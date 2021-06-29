@@ -1,0 +1,10 @@
+num = input('Enter number: ')
+print (num)
+print (type(num))
+
+user_name = input("What is your name?")
+print ("Hello! Nice to meat you,", user_name)
+user_age = input("How old are you?")
+print ("Your age is -", user_age)
+user_live = input("Where do you live?")
+print ("You live in", user_live, ("city"))
