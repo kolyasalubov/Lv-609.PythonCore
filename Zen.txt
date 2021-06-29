@@ -34,5 +34,5 @@ Zen of Python!!!!
 34.Now is better than never.
 35.Although never is often better than *right* now.
 36.If the implementation is hard to explain, it's a bad idea.
-
+37.If the implementation is easy to explain, it may be a good idea.
 
