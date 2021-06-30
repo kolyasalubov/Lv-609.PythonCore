@@ -34,10 +34,10 @@ print('In this text "is" used:', third_count_is, 'times.')
 
 #TASK TWO
 
-upper_text = (zen_of_python.upper())
-print (upper_text)
+upper_text_zen_of_python = (zen_of_python.upper())
+print (upper_text_zen_of_python)
 
 #TASK THREE
 
-replaced_words = (zen_of_python.replace('i', '&'))
-print (replaced_words)
+replaced_words_zen_of_python = (zen_of_python.replace('i', '&'))
+print (replaced_words_zen_of_python)
