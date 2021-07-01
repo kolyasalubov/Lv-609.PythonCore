@@ -13,6 +13,6 @@ print('Ok! Thats result of your reverse:', reverse)
 
 #TASK THREE
 
-last = sorted(number)
+last = ''.join(sorted(number))
 
 print('Last one! Sorted your digits:', last)
