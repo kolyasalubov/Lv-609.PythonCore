@@ -1,6 +1,7 @@
-a = 10
-b = 20
-print ('a = ', a, 'b = ', b)
-print ('Міняємо значення "а" на "б", "б" на "а"')
-a, b = b, a
-print ('a = ', a, 'b = ', b)
+name = input('What is your name?')
+age = input('How old are you?')
+live = input('Where do you live?')
+
+print ('Hello', name)
+print ('Your age is', age)
+print ('You live in', live)
