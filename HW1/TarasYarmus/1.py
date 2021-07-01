@@ -1,10 +1,5 @@
-num = input('Enter number: ')
-print (num)
-print (type(num))
+a = 10
+b = 20
 
-user_name = input("What is your name? ")
-user_age = input("How old are you? ")
-user_live = input("Where do you live? ")
-print ("Hello! Nice to meat you,", user_name)
-print ("You live in", user_live, ("city"))
-print ("Your age is -", user_age)
+a, b = b, a
+print (a, b)
