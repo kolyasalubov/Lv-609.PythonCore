@@ -1,5 +1,5 @@
-def greet(name):
-    if name == "Johnny":
-        return "Hello, my love!"
-    else:
-        return "Hello, {name}!".format(name=name)
+def reverse(st):
+    st = st.split()
+    st.reverse()
+    st =' '.join(st)
+    return st
