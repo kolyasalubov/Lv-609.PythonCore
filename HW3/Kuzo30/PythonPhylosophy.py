@@ -4,7 +4,7 @@ def words_count(text: str):
           f"Is-{text.count('is')}")
 
 
-def upper_text(text:str):
+def upper_text(text: str):
     print(text.upper())
 
 

@@ -1,11 +1,11 @@
-def product(number):
+def product(number: int):
     result = 1
     for n in number:
         result *= int(n)
     print(result)
 
 
-def reversed_number(number):
+def reversed_number(number: str):
     result = ""
     for i in reversed(number):
         result += i
