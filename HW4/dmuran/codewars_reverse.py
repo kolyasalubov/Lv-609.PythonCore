@@ -1,5 +1,6 @@
 def reverse(st):
     # Your Code Here
-    list = []
-    list.append(st)
+    a = st.split()
+    a.reverse()
+    st = ' '.join(a)
     return st
