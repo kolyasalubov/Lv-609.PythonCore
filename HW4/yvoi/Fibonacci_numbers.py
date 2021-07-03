@@ -1,11 +1,11 @@
 number = int(input("Enter last value of Fibonacci numbers: "))
-fib = first = 0
+next = first = 0
 second = 1
 
-while fib <= number:
-    print(fib)
-    fib = first + second
-    first, second = second, fib
+while next <= number:
+    print(next)
+    next = first + second
+    first, second = second, next
 
 
 """-----RESULT-----
