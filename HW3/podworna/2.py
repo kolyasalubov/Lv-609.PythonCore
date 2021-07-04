@@ -1,23 +1,7 @@
-#a=int(input("enter \"a\"-"))
-#if a%2==0: print("even number") 
-#else:  print("odd number") 
+input_number=list(input("Enter the number-"))
 
-
-n=2
-while n!=102:
-    print(n)
-    n=n+2
-
-for j in range(101):
-   if j % 2==0:
-    print(j)
-
-for val in range(101):
-       if val % 2==1:
-           print(val)
-
-for val in range(101):
-       if val % 2==0:
-           continue
-           print(val)
-           
+product=int(input_number[0])*int(input_number[1])*int(input_number[2])*int(input_number[3])
+print(f"Product={product}")
+print(f"Reversible number-{input_number[3]}{input_number[2]}{input_number[1]}{input_number[0]}")
+sorted_numbers=sorted(input_number)
+print(f"Sorted number={sorted_numbers}")
