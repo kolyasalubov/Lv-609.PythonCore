@@ -1,13 +1,8 @@
-first_number = int(input('Enter your first number: '))
-last_number = int(input('Enter your last number: '))
+number = int(input("Enter your number for Fibonacci:"))
+result = first = 0
+second = 1
 
-result = list(range(first_number, last_number + 1))
-print(f'''This is your list: \n {result}''')
-
-
-
-i = 0
-while i < len(result):
-    result[i] = float(result[i])
-    i += 1
-print(f'''This is your list in float type: \n {result}''')
+while result <= number:
+    print(result)
+    result = first + second
+    first, second = second, result

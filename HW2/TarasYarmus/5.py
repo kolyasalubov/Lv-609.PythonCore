@@ -1,18 +1,6 @@
-#TASK ONE
-
-number = input('Write four digits:')
-product = int(number[0]) * int(number[1]) * int(number[2]) * int(number[3])
-
-print ('Here result of product your four digits:', product)
-
-#TASK TWO
-
-reverse = number[3] + number[2] + number[1] + number[0]
-
-print('Ok! Thats result of your reverse:', reverse)
-
-#TASK THREE
-
-last = ''.join(sorted(number))
-
-print('Last one! Sorted your digits:', last)
+a = 10
+b = 20
+print ('a = ', a, 'b = ', b)
+print ('Міняємо значення "a" на "b", "b" на "a"')
+a, b = b, a
+print ('a = ', a, 'b = ', b)
