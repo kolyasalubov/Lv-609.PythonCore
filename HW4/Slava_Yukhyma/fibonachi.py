@@ -1,30 +1,21 @@
 
-#######################################################################
-user_number = int(input('enter your number: '))
-list_fib=[0, 1]
-where_to_stop = 1
-i = 0
-while where_to_stop != user_number:
-    fib_num = list_fib[i] + list_fib[i+1]
-    list_fib.append(fib_num)
-    i+=1
-    where_to_stop+=1
-print(list_fib)
-##############################################################################
-number_by_user = int(input('Enter your number: '))
-counter = 1
-i = 0
-list_of_fib = [0,1]
-for i in range(number_by_user+1):
-    if counter <= number_by_user:
-        fib_number = list_of_fib[i] + list_of_fib[i+1]
-        list_of_fib.append(fib_number)
-        i+=1
-        counter += 1
-print(list_of_fib)
+num = 5
+list_fibi = [0, 1, 1]
 
 
+while list_fibi[-1] != num:
+    j = list_fibi[-1]+list_fibi[-2]
+    list_fibi.append(j)
+print(f'solution 1: {list_fibi}')
 
 
+# 3
 
-
+num = 5
+list_1 = [0, 1, 1]
+d = list_1[-1]
+for d in list_1:
+    if list_1[-1] < num:
+        list_1.append(list_1[-1]+list_1[-2])
+        d += 1
+print(f'solution 2: {list_1}')
