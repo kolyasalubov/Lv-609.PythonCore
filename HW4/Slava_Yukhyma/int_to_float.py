@@ -1,4 +1,4 @@
-list_with_integers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+list_with_integers = [1, 2, 3]
 list_with_floats = []
 
 
@@ -7,11 +7,20 @@ for item in list_with_integers:
     list_with_floats.append(item)
 print(list_with_floats)
 
-# i = 0
-# for item in list_with_integers:
 
-#     while i <= len(list_with_integers)+1:
-#         #item = float(item)
-#         list_with_integers.insert(i, float(item))
-#         i += 1
-# print(list_with_integers)
+list_conver = [1, 2, 3]
+list_conver = [float(i) for i in list_conver]
+print(list_conver)
+
+
+l2 = [1, 2, 3]
+l2 = list(map(float, l2))
+print(l2)
+
+
+list_with_integerss = [1, 2, 3]
+i = 0
+for i, item in enumerate(list_with_integerss):
+    list_with_integerss[i] = float(item)
+
+print(list_with_integerss)
