@@ -7,11 +7,12 @@ print(f"""This is your list:
 
 print("")
 
-new_list = []
-for x in my_list:
-    new_list.append(float(x))
+i = 0
+while i < len(my_list):
+    my_list[i] = float(my_list[i])
+    i += 1
 print(f"""This is changed list (from \"int\" to \"float\"):
-{new_list}""")
+{my_list}""")
 
 
 """-----RESULT-----
