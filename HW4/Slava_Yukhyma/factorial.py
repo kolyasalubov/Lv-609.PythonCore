@@ -1,14 +1,14 @@
 from math import factorial
 ######################################################
 num = int(input(' Enter your number: '))
-res = 1
+result = 1
 i = 1
 while i <= num:
-    res = res * i
+    res = result * i
     i += 1
-print(res)
+print(result)
 
-if res == (factorial(num)):
+if result == (factorial(num)):
     print('You\'ve done good job!')
 
 #####using function#######
