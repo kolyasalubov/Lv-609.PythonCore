@@ -1,5 +1,5 @@
 # num = int(input('Enter number: '))
-num = 13
+num = 55
 first = 0
 second = 1
 result = 0
