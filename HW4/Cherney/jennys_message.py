@@ -1,4 +1,4 @@
-spysok = [1, 2, 3, 4, 5, 6]
-for i in range(len(spysok)):
-    spysok[i] = float(i)
-print(spysok)
+def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    return "Hello, {name}!".format(name=name)
