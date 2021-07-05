@@ -3,8 +3,8 @@
 number = int(input("Введіть додатнє натуральне число:"))
 
 # Перебір
-#if not number > 0:
-#    print("Від'ємне число")
+if not number > 0:
+    print("Від'ємне число")
 #elif number == 0:
 #    print("Факторіал = 1")
 #elif number == 1:
