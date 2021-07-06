@@ -1,4 +1,4 @@
-[i for i in range(11)]
+
 
 divided_by_three = []
 even_nums = []
