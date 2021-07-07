@@ -1,4 +1,5 @@
-#HW4 task 1
+# HW4 task 1
+# Done
 
 number = int(input("Введіть додатнє натуральне число:"))
 

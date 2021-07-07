@@ -1,4 +1,5 @@
-#HW3 blank for the task 1 to add to the Git&GitHub repos
+# HW3 task 1
+# Done
 
 # Add Zen of Python into multiple string by copypaste
 this_is = """

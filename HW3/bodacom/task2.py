@@ -1,9 +1,10 @@
-#HW3 blank for the task 2 to add to the Git&GitHub repos
+# HW3 task 2
+# Done
 
 natural_number = input("Введіть чотирицифрове натуральне число, будь ласка:")
 
 natural_number = list(natural_number)
-#Not necessare operation as appears
+#Not necessary operation as appears
 
 
 # Multiplication of digits
@@ -16,8 +17,8 @@ print("Добуток цифр = %d" % (a*b*c*d))
 
 
 # Reverse digits
-#print("Зворотній порядок:",d,c,b,a,sep='')
-#or list.reverse
+# print("Зворотній порядок:",d,c,b,a,sep='')
+# or list.reverse
 natural_number.reverse()
 a = int(natural_number[0])
 b = int(natural_number[1])
