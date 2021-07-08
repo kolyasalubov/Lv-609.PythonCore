@@ -1,6 +1,11 @@
 
 
 def calculate_square():
+    """
+    Function calculate a square for three figures,
+    depending on user choise.
+    Return - the square of chosen figure
+    """
     figure = input('choose the figure: rectangle, triangle, circle: ')
 
     if figure == 'rectangle':
