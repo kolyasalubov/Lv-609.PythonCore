@@ -1,4 +1,8 @@
 def max_nubmer(*args):
+    '''
+    Parameters - arbitrary number of numbers
+    Function returns maximal number.
+    '''
     return max(args)
 
 
