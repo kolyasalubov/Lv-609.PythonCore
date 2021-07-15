@@ -1,5 +1,8 @@
 def greet(name):
     if name == "Johnny":
-        return "Hello, my love!"
+        return print ("Hello, my love!")
     else:
-        return "Hello, {name}!".format(name=name)
+        return print (f"Hello, {name}!")
+
+name = input('Enter your name:')
+greet(name)
