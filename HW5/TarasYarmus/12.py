@@ -35,14 +35,14 @@ if question == '1':
     rectangle2 = float(input('Enter second side length: '))
     result_rectangle = rectangle(rectangle1, rectangle2)
     print(f'Square of your rectangle is: {result_rectangle}')
-
-if question == '2':
+elif question == '2':
     triangle1 = float(input('Enter your height: '))
     triangle2 = float(input('Enter your basis: '))
     result_triangle = triangle(triangle1, triangle2)
     print(f'Square of your triangle is: {result_triangle}')
-
-if question == '3':
+elif question == '3':
     circle1 = float(input('Enter numeric for "r": '))
     result_circle = circle(circle1)
     print(f'Square of your circle is: {result_circle}')
+else:
+    print('Wrong option! Try again!')
