@@ -1,11 +1,10 @@
 def calculates_number_char(string_input):
-   """
-   calculates the number of characters
-   """
-   set_string=set(string_input)
-   
-#    for i in len(string_input)
-st=input("string")
-print(set(st))
-e=enumerate(st)
-print(e)
+   result={}
+   for x in string_input:
+      if x in result:
+         continue
+      else:
+         result.update({str(x): string_input.count(x)})
+   return result
+      
+print(calculates_number_char('pythonHTMLcssJS   '))
