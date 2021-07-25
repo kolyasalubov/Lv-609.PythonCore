@@ -1,0 +1,9 @@
+import re
+
+patterns = ["[a-z]", "[A-Z]", "[0-9]", "[#$@]", "^.{6,17}$"]
+rez = input("Please enter a valid password: ")
+
+while all([len(re.findall(x, rez)) for x in patterns]) != 1:
+    rez = input("Password is incorrect, please enter valid password: ")
+else:
+    print("Your password is valid, thank you.")
