@@ -20,7 +20,7 @@ def main():
 def gameplay(a, b):
     attempts = 1
     rand_number = random.randint(a, b)
-    print(rand_number)
+    # print(rand_number)
     user_guess = int(input(f"Your number is somewhere between {a} and {b}: "))
     while user_guess != rand_number:
         if user_guess < rand_number:
