@@ -8,9 +8,7 @@ def check_valid_pass(password):
     Return: is valid password
     """
     while True:
-        if len(password) < 6:
-            return 'Not a Valid Password'
-        elif len(password) > 16:
+        if len(password) < 6 or len(password) > 16:
             return 'Not a Valid Password'
         elif not re.search('[a-z]', password):
             return 'Not a Valid Password'
