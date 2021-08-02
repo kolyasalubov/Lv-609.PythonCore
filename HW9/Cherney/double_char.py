@@ -3,3 +3,4 @@ def doub(s):
     for i in s:
         lis.append(i*2)
     return "".join(lis)
+
