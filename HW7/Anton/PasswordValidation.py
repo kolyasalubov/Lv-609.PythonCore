@@ -2,6 +2,7 @@ from re import search
 
 def check_pass(password):
     if len(password) < 6 or len(password) > 16:
+        
         return 'Lenth must be 6 - 16'
     elif not search('[a-z]', password):
         return 'At least 1 letter between [a-z] and 1 letter between [A-Z]'
