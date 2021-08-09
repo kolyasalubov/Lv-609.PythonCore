@@ -1,0 +1,6 @@
+a = str(input())
+b = sorted(a)
+number = int(a[0]) * int(a[1]) * int(a[2]) * int(a[3])
+print(number)
+print(a[::-1])
+print(*(sorted(b)), sep="")
