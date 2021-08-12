@@ -1,0 +1,7 @@
+print('Enter first number:')
+first = input()
+print('Enter second number:')
+second = input()
+a = int(first)
+b = int(second)
+print(a + b, a - b, a * b, a / b, a ** b)
