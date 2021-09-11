@@ -30,4 +30,3 @@ else:
         fibonacci_elements.append(int(fibonacci_elements[i-1]) + int(fibonacci_elements[i-2]))
         i+=1
     print(fibonacci_elements)
-
