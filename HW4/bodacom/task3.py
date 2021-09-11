@@ -1,8 +1,13 @@
 # HW4 task 3
 # Done
+
+# Task3. Print Fibonacci numbers up to the entered number n, 
+# using cycles. 
+# (Sequence of Fibonacci numbers 0, 1, 1, 2, 3, 5, 8, 13, etc.) 
+
 # Counts Fibbonaci numbers up to given by user element number
 
-# Ask for number of elements of the row
+# Ask for number of elements in the row
 int_number = int(input("Послідовність Фібоначі до якого елементу? "))
 # print(int_number)
 
@@ -25,3 +30,4 @@ else:
         fibonacci_elements.append(int(fibonacci_elements[i-1]) + int(fibonacci_elements[i-2]))
         i+=1
     print(fibonacci_elements)
+    

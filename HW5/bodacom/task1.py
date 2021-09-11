@@ -5,7 +5,7 @@
 # odd numbers, which are divisible by 3,
 # numbers that are not divisible by 2 and 3.
 
-range_one_ten = []
+#range_one_ten = []
 
 for element in range(1,11):
     if element%2 == 0:

@@ -1,6 +1,8 @@
 # HW4 task 1
 # Done
 
+#Task1. Write a script that will calculate the factorial of the entered number without using recursion.
+
 number = int(input("Введіть додатнє натуральне число:"))
 
 # Перебір

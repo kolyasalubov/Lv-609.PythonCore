@@ -1,6 +1,12 @@
 # HW3 task 1
 # Done
 
+# Записати в стрічку філософію Пайтона 
+# - Знайти в заданій стрічці кількість 
+#   входжень слів (better, never, is)
+# - Вивести весь текст у верхньому регістрі (всі великі літери)
+# - Замінити всі входження символу “і” на “&”
+
 # Add Zen of Python into multiple string by copypaste
 this_is = """
 The Zen of Python, by Tim Peters
